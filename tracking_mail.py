@@ -23,7 +23,7 @@ server.sendmail(fromaddr, toaddr, text)
 
 print('DONE')
 
-# Pytracking
+# Pytracking Implementation
 open_tracking_url = pytracking.get_open_tracking_url(
     {"customer_id": 1}, base_open_tracking_url="https://trackingdomain.com/path/",
     webhook_url="http://requestb.in/123", include_webhook_url=True)
