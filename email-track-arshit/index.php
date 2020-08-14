@@ -16,7 +16,7 @@ if(isset($_POST["send"]))
 	$mail->Port = 465;
 	$mail->SMTPAuth = true;
 	$mail->Username = 'tigersem4D@gmail.com';
-	$mail->Password = 'tiger@4D';
+	$mail->Password = 'xxxxxxx';
 	$mail->SMTPSecure = 'ssl';
 	$mail->From = 'tigersem4D@gmail.com';
 	$mail->FromName = 'Tiger X';
