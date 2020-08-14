@@ -3,7 +3,7 @@
 //index.php
 
 $connect = new PDO("mysql:host=localhost;dbname=talenq", "root", "");
-$base_url = 'http://localhost/email-track-arshit/'; //
+$base_url = 'https://daccce2c1d86.ngrok.io/email-track-arshit/'; //
 
 $message = '';
 
