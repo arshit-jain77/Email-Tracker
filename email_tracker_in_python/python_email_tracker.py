@@ -27,7 +27,7 @@ class mail(db.Model):
     email_track_code = db.Column(db.String(500), nullable=False)
 
 GMAIL_ID = 'tigersem4D@gmail.com'
-PASSWORD = 'tiger@4D'
+PASSWORD = 'xxxxxxxx'
 
 # Before running the program turn on less secure apps for tiger account
 
@@ -71,7 +71,7 @@ def mainpage_signin():
 
         mail_ = smtplib.SMTP('smtp.gmail.com', 587)
         mail_.starttls()
-        mail_.login('tigersem4D@gmail.com', 'tiger@4D')
+        mail_.login('tigersem4D@gmail.com', 'xxxxxx')
         mail_.sendmail(GMAIL_ID, To_, msg.as_string())
         mail_.quit()
 
