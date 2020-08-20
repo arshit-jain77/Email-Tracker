@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 GMAIL_ID = 'tigersem4D@gmail.com'
-PASSWORD = 'tiger@4D'
+PASSWORD = 'xxxxxxxxxxxx'
 To_ = 'arshitjain6@gmail.com'
 sub = 'mongo mail_15'
 mssg = 'mongo mail body'
@@ -37,7 +37,7 @@ msg.attach(part2)
 
 mail_ = smtplib.SMTP('smtp.gmail.com', 587)
 mail_.starttls()
-mail_.login('tigersem4D@gmail.com', 'tiger@4D')
+mail_.login('tigersem4D@gmail.com', 'xxxxxxxx')
 mail_.sendmail(GMAIL_ID, To_, msg.as_string())
 mail_.quit()
 
